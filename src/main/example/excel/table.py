@@ -5,7 +5,7 @@ conn = psycopg2.connect(dbname='d6vjl3au6tld96', user='exmeqvroilujbg',
                         host='ec2-54-228-181-43.eu-west-1.compute.amazonaws.com')
 
 cursor = conn.cursor()
-cursor.execute('SELECT * FROM book;')
+cursor.execute('SELECT * FROM library;')
 
 wb_example = load_workbook('./table.xlsx')
 ws_example = wb_example.active
@@ -47,12 +47,35 @@ EssayDirections = [
     "«Смелость и трусость»",
     "«Человек и общество»"
 ]
+Section = [
+    "Биографии российских знаменитостей",
+    "Военная литература",
+    "Домоводство",
+    "Дополнительное учебное пособие",
+    "Зарубежная литература",
+    "Историческая проза",
+    "Исторические романы",
+    "История и теория литературы",
+    "История. Археология. Этнография",
+    "Классическая и современная проза",
+    "Литература для детей",
+    "Литература для школьников",
+    "Литературная критика",
+    "Повести и рассказы о животных",
+    "Познавательная литература",
+    "Поэзия",
+    "Приключенческие романы",
+    "Публицистика",
+    "Путешествия. Хобби. Фото. Спорт",
+    "Рассказы",
+    "Транспорт",
+    "Фантастика. Фэнтези. Мистика"
+]
 Directions = [EGEDirecions, EssayDirections, OGEDirections]
 rowNumber = 1
 
-alph = 'abcdefghijklmnopqrstuvwxyz'
-for row in ws_example.values:
-    print(row[6], bool(row[6]))
+for row in cursor.fetchall():
+    print(row[1:])
 
 wb_example.save('./table.xlsx')
 cursor.close()

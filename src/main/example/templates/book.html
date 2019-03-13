@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en, ru">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>Книги по запросу</title>
+  <link rel="stylesheet" href="static/bookstyle.css"/>
+  <style>
+      body {
+        background: #F5DEB3
+      }
+      h1, h3, h2 {
+        color: #800080;
+        padding: 2px;
+        text-align: center;
+      }
+      .content {
+        position: absolute;
+        width: 100%;
+        font-size: 90%;
+        text-align: center;
+      }
+      table {
+        width: 100%;
+      }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Книги по запросу</h1>
+  </div>
+  <div class="content">
+    <table>
+      <tr>
+          <td><h2>Название книги</h2></td>
+          <td><h2>Автор</h2></td>
+          <td><h2>Раздел</h2></td>
+          <td><h2>Год издания</h2></td>
+          <td><h2>Число страниц</h2></td>
+          <td><h2>Наличие иллюстраций</h2></td>
+          <td><h2>Количество книг в наличие</h2></td>
+          <td><h2>Краткое описание</h2></td>
+          <td><h2>Направления ОГЭ</h2></td>
+          <td><h2>Направления ЕГЭ</h2></td>
+          <td><h2>Направления Итогового сочинения</h2></td>
+      </tr>
+      {% for book in books %}
+      <tr>
+          <td><h4>{{book[0]}}</h4></td>
+          <td><h4>{{book[2]}}</h4></td>
+          <td><h4>{{book[9]}}</h4></td>
+          <td><h4>{{book[10]}}</h4></td>
+          <td><h4>{{book[8]}}</h4></td>
+          {% if book[6] %}
+            <td><h4>Есть</h4></td>
+          {% else %}
+            <td><h4>Нет</h4></td>
+          {% endif %}
+          <td><h4>{{book[7]}}</h4></td>
+          <td><h4>{{book[1]}}</h4></td>
+          {% if book[5] != None %}
+            <td><h4>{{book[5]}}</h4></td>
+          {% else %}
+            <td><h4>Нет</h4></td>
+          {% endif %}
+          {% if book[4] != None %}
+          <td><h4>{{book[4]}}</h4></td>
+          {% else %}
+            <td><h4>Нет</h4></td>
+          {% endif %}
+          {% if book[3] != None %}
+          <td><h4>{{book[3]}}</h4></td>
+          {% else %}
+            <td><h4>Нет</h4></td>
+          {% endif %}
+      </tr>
+      {%endfor%}
+    </table>
+  </div>
+</body>
+</html>
