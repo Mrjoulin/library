@@ -1,1 +1,1 @@
-web: gunicorn -b https://licey-library-project.herokuapp.com:5000 wsgi:app
+web: gunicorn wsgi:app
