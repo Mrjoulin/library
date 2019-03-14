@@ -59,7 +59,7 @@
           <entry key="dummy" value="16" />
           <entry key="html" value="1053" />
           <entry key="java" value="2" />
-          <entry key="py" value="3253" />
+          <entry key="py" value="3258" />
           <entry key="txt" value="50" />
         </counts>
       </usages-collector>
@@ -68,7 +68,7 @@
           <entry key="CSS" value="44" />
           <entry key="HTML" value="1053" />
           <entry key="PLAIN_TEXT" value="151" />
-          <entry key="Python" value="3253" />
+          <entry key="Python" value="3258" />
         </counts>
       </usages-collector>
     </session>
@@ -78,14 +78,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/example/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1575">
-              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+            <state relative-caret-position="30">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
               <folding>
-                <element signature="e#0#40#0" expanded="true" />
-                <marker date="1552578486368" expanded="true" signature="2670:3655" ph="..." />
-                <marker date="1552578486368" expanded="true" signature="2901:3538" ph="..." />
-                <marker date="1552578486368" expanded="true" signature="2901:3655" ph="..." />
-                <marker date="1552578486368" expanded="true" signature="3710:3715" ph="..." />
+                <marker date="1552579381771" expanded="true" signature="2707:3692" ph="..." />
+                <marker date="1552579381771" expanded="true" signature="2938:3575" ph="..." />
+                <marker date="1552579381771" expanded="true" signature="2938:3692" ph="..." />
+                <marker date="1552579381771" expanded="true" signature="3747:3752" ph="..." />
               </folding>
             </state>
           </provider>
@@ -104,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
+              <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -205,8 +204,8 @@
         <option value="$PROJECT_DIR$/src/__init__.py" />
         <option value="$PROJECT_DIR$/src/main/example/__init__.py" />
         <option value="$PROJECT_DIR$/LICENSE" />
-        <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/src/main/example/app.py" />
       </list>
     </option>
@@ -397,9 +396,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="-2" width="1366" height="770" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49888143" visible="true" weight="0.2659091" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49888143" visible="true" weight="0.2659091" />
       <window_info id="Structure" order="1" sideWeight="0.50111854" side_tool="true" weight="0.25757575" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -413,7 +411,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5030303" side_tool="true" weight="0.328125" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4969697" weight="0.3890625" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4969697" visible="true" weight="0.3890625" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49924242" weight="0.328125" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -564,6 +562,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
           <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1552411530073" expanded="true" signature="443:444" ph="..." />
+            <marker date="1552411530073" expanded="true" signature="1941:2695" ph="..." />
+            <marker date="1552411530073" expanded="true" signature="2715:2844" ph="..." />
+            <marker date="1552411530073" expanded="true" signature="2954:2959" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -654,7 +659,7 @@
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
+          <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -667,14 +672,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/example/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+        <state relative-caret-position="30">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
-            <marker date="1552578486368" expanded="true" signature="2670:3655" ph="..." />
-            <marker date="1552578486368" expanded="true" signature="2901:3538" ph="..." />
-            <marker date="1552578486368" expanded="true" signature="2901:3655" ph="..." />
-            <marker date="1552578486368" expanded="true" signature="3710:3715" ph="..." />
+            <marker date="1552579381771" expanded="true" signature="2707:3692" ph="..." />
+            <marker date="1552579381771" expanded="true" signature="2938:3575" ph="..." />
+            <marker date="1552579381771" expanded="true" signature="2938:3692" ph="..." />
+            <marker date="1552579381771" expanded="true" signature="3747:3752" ph="..." />
           </folding>
         </state>
       </provider>
