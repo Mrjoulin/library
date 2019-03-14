@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6bd18483-5730-4673-b433-d0de463aa082" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/example/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/example/app.py" afterDir="false" />
-    </list>
+    <list default="true" id="6bd18483-5730-4673-b433-d0de463aa082" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -409,6 +406,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="-2" width="1366" height="770" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49888143" visible="true" weight="0.2659091" />
       <window_info id="Structure" order="1" sideWeight="0.50111854" side_tool="true" weight="0.25757575" />
