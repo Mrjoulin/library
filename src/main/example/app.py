@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 from werkzeug.contrib.fixers import ProxyFix
-from db.db import *
+from src.main.example.db.db import *
 
 app = Flask(__name__)
 
