@@ -1,1 +1,1 @@
-web: gunicorn library_project:src/main/example
+web: gunicorn app:app
