@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+from werkzeug.contrib.fixers import ProxyFix
 from example.db.db import *
 
 app = Flask(__name__)
@@ -102,3 +103,8 @@ def create_database():
 def drop():
     drop_table('library')
     return "Table library is removed"
+
+
+app.wsgi_app = ProxyFix(app.wsgi_app)
+if __name__ == '__main__':
+    app.run()
