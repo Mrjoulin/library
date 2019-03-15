@@ -57,7 +57,7 @@ def get_book_on_direction(what_direction, name_direction):
 
     for row in cur.fetchall():
         if split:
-            if name_direction in row[number_of_cell].split('/'):
+            if row[number_of_cell] is not None and name_direction in row[number_of_cell].split('/'):
                 books.append(row[1:])
         else:
             if name_direction == row[number_of_cell]:
