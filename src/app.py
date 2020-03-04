@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 from werkzeug.contrib.fixers import ProxyFix
-from src.main.example.db.db import *
+from src.db.db import *
 
 app = Flask(__name__)
 
@@ -32,11 +32,11 @@ EGEDirections = {
 }
 
 EssayDirections = {
+    "GoodAndEvil": "Добро и зло",
+    "HopeAndDespair": "Надежда и отчаяние",
+    "PrideAndHumility": "Гордость и смирение",
     "FathersAndSons": "Отцы и дети",
-    "DreamAndReality": "Мечта и реальность",
-    "RevengeAndGenerosity": "Месть и великодушие",
-    "ArtAndCraft": "Искусство и ремесло",
-    "KindnessAndCruelty": "Доброта и жестокость"
+    "WarAndPeace": "Война и мир"
 }
 
 Section = {
@@ -99,6 +99,12 @@ def create_database():
     return "Database create"
 
 
+@app.route('/update_database')
+def update_database():
+    update_from_excel()
+    return "Database updated"
+
+
 @app.route('/drop_table')
 def drop():
     drop_table('library')
@@ -107,4 +113,4 @@ def drop():
 
 app.wsgi_app = ProxyFix(app.wsgi_app)
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0')

@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6bd18483-5730-4673-b433-d0de463aa082" name="Default Changelist" comment="Add procfile" />
-    <ignored path="$PROJECT_DIR$/venv/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="6bd18483-5730-4673-b433-d0de463aa082" name="Default Changelist" comment="Add procfile">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/excel/table2020.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/library_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/library_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/example/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/example/db/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/example/excel/table.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/excel/table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/example/excel/table.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/excel/table.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/example/excel/библиотека.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/excel/библиотека.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/example/static/bookstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/bookstyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/example/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/example/templates/book.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/example/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/wsgi.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,150 +26,6 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/library_project$table__1_.coverage" NAME="table (1) Coverage Results" MODIFIED="1552406562079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/example/excel" />
     <SUITE FILE_PATH="coverage/library_project$table.coverage" NAME="table Coverage Results" MODIFIED="1552311220895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/python" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1887227697">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.33" value="1" />
-          <entry key="project.open.time.35" value="1" />
-          <entry key="project.open.time.39" value="1" />
-          <entry key="project.open.time.42" value="1" />
-          <entry key="project.opened" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="Dockerfile" value="4" />
-          <entry key="LICENSE" value="1" />
-          <entry key="Procfile" value="3" />
-          <entry key="css" value="15" />
-          <entry key="html" value="19" />
-          <entry key="java" value="5" />
-          <entry key="py" value="28" />
-          <entry key="txt" value="4" />
-          <entry key="yaml" value="4" />
-          <entry key="yml" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSS" value="15" />
-          <entry key="Dockerfile" value="4" />
-          <entry key="HTML" value="19" />
-          <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Python" value="28" />
-          <entry key="YAML" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="Procfile" value="125" />
-          <entry key="css" value="44" />
-          <entry key="dummy" value="16" />
-          <entry key="html" value="1053" />
-          <entry key="java" value="2" />
-          <entry key="py" value="3273" />
-          <entry key="txt" value="51" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSS" value="44" />
-          <entry key="HTML" value="1053" />
-          <entry key="PLAIN_TEXT" value="194" />
-          <entry key="Python" value="3273" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/example/app.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-                <marker date="1552584915639" expanded="true" signature="2724:3709" ph="..." />
-                <marker date="1552584915639" expanded="true" signature="2955:3592" ph="..." />
-                <marker date="1552584915639" expanded="true" signature="2955:3709" ph="..." />
-                <marker date="1552584915639" expanded="true" signature="3764:3769" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wsgi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/exatch-decembrist/vk/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/exatch-decembrist/tg/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/example/excel/table.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/example/templates/book.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-              <folding>
-                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/project/src/main/resources/static/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -168,99 +38,39 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/python/__init__.py" />
-        <option value="$PROJECT_DIR$/src/main/python/db.py" />
-        <option value="$PROJECT_DIR$/src/main/python/table.py" />
-        <option value="$PROJECT_DIR$/src/resourses/templates/index.html" />
-        <option value="$PROJECT_DIR$/src/main/python/init.py" />
-        <option value="$PROJECT_DIR$/src/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/src/resources/templates/static/css/style.css" />
-        <option value="$PROJECT_DIR$/src/resources/templates/example.html" />
-        <option value="$PROJECT_DIR$/src/main/example/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/src/main/example/resources/templates/static/css/style.css" />
-        <option value="$PROJECT_DIR$/src/main/example/resources/templates/example.html" />
-        <option value="$PROJECT_DIR$/src/main/example/static/style.css" />
-        <option value="$PROJECT_DIR$/src/main/example/templates/example.html" />
-        <option value="$PROJECT_DIR$/src/main/example/excel/table.py" />
-        <option value="$PROJECT_DIR$/src/main/example/static/bookstyle.css" />
-        <option value="$PROJECT_DIR$/src/main/example/db/db.py" />
-        <option value="$PROJECT_DIR$/__init__.py" />
-        <option value="$PROJECT_DIR$/src/main/example/templates/index.html" />
-        <option value="$PROJECT_DIR$/src/main/example/init.py" />
-        <option value="$PROJECT_DIR$/src/main/example/templates/book.html" />
-        <option value="$PROJECT_DIR$/src/__init__.py" />
-        <option value="$PROJECT_DIR$/src/main/example/__init__.py" />
-        <option value="$PROJECT_DIR$/LICENSE" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/wsgi.py" />
-        <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/src/main/example/app.py" />
-      </list>
-    </option>
-  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1366" />
-    <option name="y" value="-2" />
-    <option name="width" value="1366" />
-    <option name="height" value="770" />
-  </component>
+  <component name="ProjectId" id="1YfejgV6uQ1Vy2pjXHkCZ2iRamR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="library_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="library_project" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/exatch-decembrist/vk/Dockerfile" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../exatch-decembrist/vk/vk.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/example/excel" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/example/static" />
       <recent name="$PROJECT_DIR$/src/main/example" />
       <recent name="$PROJECT_DIR$/src/main/example/resources" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.table (1)">
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/library_project/src/main/example/resources/templates/index.html">
@@ -312,13 +122,11 @@
     </configuration>
     <list>
       <item itemvalue="Python.table" />
-      <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="Python.table (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.table (1)" />
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Python.table" />
       </list>
     </recent_temporary>
@@ -355,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552500247310</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Debag db and book.html">
+      <created>1552653511910</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552653511912</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -367,303 +182,32 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="1366" y="-2" width="1366" height="770" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49888143" visible="true" weight="0.2659091" />
-      <window_info id="Structure" order="1" sideWeight="0.50111854" side_tool="true" weight="0.25757575" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42295083" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32952693" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5030303" side_tool="true" weight="0.328125" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4969697" weight="0.5421875" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49924242" weight="0.328125" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="R Graphics" order="4" />
-      <window_info anchor="right" id="R Packages" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add book to init" />
     <MESSAGE value="Add requirements.txt" />
     <MESSAGE value="Add procfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add procfile" />
+    <MESSAGE value="Debag db and book.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Debag db and book.html" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/__init__.py" />
-    <entry file="file://$USER_HOME$/exatch-decembrist/vk/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/exatch-decembrist/api/api/db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/exatch-decembrist/api/api/stocks.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/exatch-decembrist/api/api/auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/exatch-decembrist/vk/vk.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="223" column="17" lean-forward="true" selection-start-line="223" selection-start-column="17" selection-end-line="223" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/project/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/project/src/main/java/com/example/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/exam-project/circles/init.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="80" column="50" lean-forward="true" selection-start-line="80" selection-start-column="50" selection-end-line="80" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/project/src/main/java/com/example/domain/OGEDirection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/project/src/main/java/com/example/domain/EGEDirection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/project/src/main/resources/templates/book.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/project/src/main/java/com/example/domain/Section.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/project/src/main/resources/static/css/bookstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/example/static/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/example/static/bookstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/exatch-decembrist/docker-compose-dev.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/exatch-decembrist/api/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__init__.py" />
-    <entry file="file://$USER_HOME$/exatch-decembrist/api/api/routes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/example/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="73" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3/dist-packages/flask/cli.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/exatch-decembrist/api/api/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/exatch-decembrist/docker-compose.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/exatch-decembrist/api/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/project/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/project/src/main/resources/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/example/templates/book.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/example/excel/table.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/exatch-decembrist/tg/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/exatch-decembrist/vk/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/example/db/db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1552411530073" expanded="true" signature="443:444" ph="..." />
-            <marker date="1552411530073" expanded="true" signature="1941:2695" ph="..." />
-            <marker date="1552411530073" expanded="true" signature="2715:2844" ph="..." />
-            <marker date="1552411530073" expanded="true" signature="2954:2959" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/example/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-            <marker date="1552584915639" expanded="true" signature="2724:3709" ph="..." />
-            <marker date="1552584915639" expanded="true" signature="2955:3592" ph="..." />
-            <marker date="1552584915639" expanded="true" signature="2955:3709" ph="..." />
-            <marker date="1552584915639" expanded="true" signature="3764:3769" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="1802" y="81" width="814" height="919" key="CommitChangelistDialog2" timestamp="1583351900959">
+      <screen x="1366" y="0" width="2560" height="1080" />
+    </state>
+    <state x="1802" y="81" width="814" height="919" key="CommitChangelistDialog2/0.27.1366.741/1366.0.2560.1080@1366.0.2560.1080" timestamp="1583351900959" />
+    <state x="1997" y="295" width="424" height="491" key="FileChooserDialogImpl" timestamp="1583348980778">
+      <screen x="1366" y="0" width="2560" height="1080" />
+    </state>
+    <state x="1997" y="295" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741/1366.0.2560.1080@1366.0.2560.1080" timestamp="1583348980778" />
+    <state x="1703" y="172" key="SettingsEditor" timestamp="1583341959936">
+      <screen x="1366" y="0" width="2560" height="1080" />
+    </state>
+    <state x="1703" y="172" key="SettingsEditor/0.27.1366.741/1366.0.2560.1080@1366.0.2560.1080" timestamp="1583341959936" />
+    <state x="2425" y="230" width="432" height="627" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583338485759">
+      <screen x="1366" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2425" y="230" width="432" height="627" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1366.741/1366.0.2560.1080@1366.0.2560.1080" timestamp="1583338485759" />
   </component>
 </project>

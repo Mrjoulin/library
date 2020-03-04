@@ -1,6 +1,6 @@
 import psycopg2
 from openpyxl import load_workbook
-
+import re
 
 def connect_to_db():
     conn = psycopg2.connect(dbname='d6vjl3au6tld96', user='exmeqvroilujbg',
@@ -35,6 +35,49 @@ def create():
 
     conn.commit()
     cursor.close()
+    conn.close()
+
+
+def update_from_excel():
+    conn, cur = connect_to_db()
+    wb_example = load_workbook('./src/excel/table2020.xlsx')
+    ws_example = wb_example.active
+    cur.execute('SELECT * FROM library;')
+    books = sorted(list(cur.fetchall()), key=lambda a: ''.join(a[3].split(' ')))
+    books_ex = sorted(list(ws_example.values), key=lambda a: ''.join(a[2].split(' ')))
+
+    # Сорри за этот говнокод, это пиздец
+
+    for i in range(len(books)):
+        k = list(books_ex[i])
+        k[2] = books[i][3]
+        books_ex[i] = tuple(k)
+
+    cnt = 0
+    cnt_p = 0
+    names = ''
+    for row in books_ex:
+        print(row)
+        cur.execute("UPDATE library SET EssayDirection = '{essay}' WHERE (year_of_publish = '{year}' AND number_of_pages = '{pages}' AND author = '{author}') OR (title = '{title}' AND author = '{author}');"
+                    .format(essay=row[0], title=row[1], year=row[4], pages=row[5], author=row[2]))
+
+        cur.execute("SELECT title FROM library WHERE (year_of_publish = '{year}' AND number_of_pages = '{pages}' AND author = '{author}') OR (title = '{title}' AND author = '{author}');"
+                    .format(title=row[1], year=row[4], pages=row[5], author=row[2]))
+        a = cur.fetchall()
+
+        if len(a) > 1:
+            cnt_p += 1
+
+        print(a)
+        cnt += 0 if len(a) else 1
+        names += '' if len(a) else row[1] + '; '
+
+    print('Num times? when founded more then 1 book:', cnt_p)
+    print('Number not found:', cnt)
+    print('No founded books:\n', names)
+    if not cnt_p and not cnt:
+        conn.commit()
+    cur.close()
     conn.close()
 
 
