@@ -1,6 +1,7 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, url_for
 from werkzeug.contrib.fixers import ProxyFix
 from src.db.db import *
+from urllib.parse import unquote_plus
 
 app = Flask(__name__)
 
@@ -64,6 +65,25 @@ Section = {
     "FantasticFantasyMystic":  "Фантастика. Фэнтези. Мистика"
 }
 
+exams = {
+        "oge": {
+            "name": "Направления ОГЭ",
+            "directions": OGEDirections
+        },
+        "ege": {
+            "name": "Направления ЕГЭ",
+            "directions": EGEDirections
+        },
+        "section": {
+            "name": "Все разделы",
+            "directions": Section
+        },
+        "essay": {
+            "name": "Направления Итогового сочинения",
+            "directions": EssayDirections
+        }
+    }
+
 
 @app.route("/")
 def main():
@@ -71,11 +91,32 @@ def main():
                            EGEDirections=EGEDirections, Section=Section)
 
 
+@app.route("/find/<text>")
+def find_books(text):
+    text = unquote_plus(text)
+    if text in Section.values():
+        books = get_book_on_direction('Section', text)
+    elif text in OGEDirections.values():
+        books = get_book_on_direction('OGEDirection', text)
+    elif text in EGEDirections.values():
+        books = get_book_on_direction('EGEDirection', text)
+    elif text in EssayDirections.values():
+        books = get_book_on_direction('EssayDirection', text)
+    else:
+        books = find(text)
+    return render_template('book.html', books=books)
+
+
+@app.route("/exam/<exam>")
+def choose_exam(exam):
+    if exam in exams:
+        return render_template("direction.html", name=exams[exam]["name"], directions=exams[exam]["directions"])
+
+
 @app.route("/book/<direction>")
 def book(direction):
     if direction in Section.keys():
         books = get_book_on_direction('Section', Section[direction])
-        return render_template('book.html', books=books)
     elif direction in OGEDirections.keys():
         books = get_book_on_direction('OGEDirection', OGEDirections[direction])
     elif direction in EGEDirections.keys():

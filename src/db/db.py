@@ -59,7 +59,7 @@ def update_from_excel():
     for row in books_ex:
         print(row)
         cur.execute("UPDATE library SET EssayDirection = '{essay}' WHERE (year_of_publish = '{year}' AND number_of_pages = '{pages}' AND author = '{author}') OR (title = '{title}' AND author = '{author}');"
-                    .format(essay=row[0], title=row[1], year=row[4], pages=row[5], author=row[2]))
+                    .format(essay=row[0] if row[0] is not None else 'Нет', title=row[1], year=row[4], pages=row[5], author=row[2]))
 
         cur.execute("SELECT title FROM library WHERE (year_of_publish = '{year}' AND number_of_pages = '{pages}' AND author = '{author}') OR (title = '{title}' AND author = '{author}');"
                     .format(title=row[1], year=row[4], pages=row[5], author=row[2]))
@@ -79,6 +79,21 @@ def update_from_excel():
         conn.commit()
     cur.close()
     conn.close()
+
+
+def find(name):
+    conn, cur = connect_to_db()
+    cur.execute('SELECT * FROM library;')
+
+    books = []
+
+    for row in cur.fetchall():
+        if name.lower() in row[1].lower() or name.lower() in row[3].lower():
+            books.append(row[1:])
+
+    cur.close()
+    conn.close()
+    return books
 
 
 def get_book_on_direction(what_direction, name_direction):

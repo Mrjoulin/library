@@ -1,99 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Электронный библиотечный справочник</title>
-    <style>
-        body {
-            background: #F5DEB3
-        }
-        h1, h2, h3{
-            color: #800080;
-            padding: 2px;
-            text-align: center;
-        }
-        table{
-            position:absolute;
-            top:1px;
-        }
-        td{
-            width:300px;
-            text-align:center;
-        }
-        .content {
-            width:100%;
-            position: absolute;
-            font-size: 100%;
-        }
-        .table{
-            width:100%
-        }
-    </style>
+    <link type="text/css" rel="stylesheet" href="../static/css/style.css">
 </head>
 <body>
     <div class="header">
-        <h1> Электронный библиотечный справочник </h1>
-        <h3> Здесь вы можете выбрать нужный вам раздел или направление </h3>
+        <h1 id="title">Электронный библиотечный справочник</h1>
     </div>
     <div class="content">
-        <table class="table">
-            <tr>
-                <td>
-                    <table>
-                        <tr>
-                            <td><h2>Все разделы</h2></td>
-                        </tr>
-                        {% for i in Section.keys() %}
-                        <tr>
-                            <td><a href="/book/{{i}}"><h4>{{Section[i]}}</h4></a></td>
-                        </tr>
-                        {%endfor%}
-                    </table>
-                </td>
-                <td>
-                    <table>
-                        <tr>
-                            <td><h2>Все направления ОГЭ</h2></td>
-                        </tr>
-                        {% for i in OGEDirections.keys() %}
-                        <tr>
-                            <td><a href="/book/{{i}}"><h4>{{OGEDirections[i]}}</h4></a></td>
-                        </tr>
-                        {%endfor%}
-                    </table>
-                </td>
-                <td>
-                    <table>
-                        <tr>
-                            <td><h2>Все направления ЕГЭ</h2></td>
-                        </tr>
-                        {% for i in EGEDirections.keys() %}
-                        <tr>
-                            <td><a href="/book/{{i}}"><h4>{{EGEDirections[i]}}</h4></a></td>
-                        </tr>
-                        {%endfor%}
-                    </table>
-                </td>
-                <td>
-                    <table>
-                        <tr>
-                            <td><h2>Все направления итогового сочинения</h2></td>
-                        </tr>
-                        {% for i in EssayDirections.keys()%}
-                        <tr>
-                            <td><a href="/book/{{i}}"><h4>{{EssayDirections[i]}}</h4></a></td>
-                        </tr>
-                        {%endfor%}
-                        <tr>
-                            <td><h2>Список всех книг:</h2></td>
-                        </tr>
-                        <tr>
-                            <td><a href="/all"><h4>Список</h4></a></td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
+        <div id="find">
+            <input type="text" id="find-text" placeholder="Название книги, автор или направление">
+            <button id="find-button" onclick="find()">
+                <img src="../static/files/pictures/search.png" style="position:absolute; top: 28%; left: 30%; width: 40%;height: 44%;">
+            </button>
+        </div>
+        <a href="/exam/oge">
+            <button id="oge-button">
+                <img src="../static/files/pictures/oge.png" style="position:absolute; width: 23%; height: 60%;left: 10%; top: 20%">
+                ОГЭ
+            </button>
+        </a>
+        <a href="/exam/ege">
+            <button id="ege-button">
+                <img src="../static/files/pictures/ege.png" style="position:absolute; width: 23%; height: 60%;left: 10%; top: 20%">
+                ЕГЭ
+            </button>
+        </a>
+        <a href="/exam/essay">
+            <button id="essay-button">
+                <img src="../static/files/pictures/essay.png" style="position:absolute; width: 15%; height: 50%;left: 10%; top: 25%">
+                Сочинение
+            </button>
+        </a>
+        <a href="/exam/section">
+            <button id="section-button">
+                <img src="../static/files/pictures/section.png" style="position:absolute; width: 15%; height: 50%;left: 10%; top: 25%">
+                Все разделы
+            </button>
+        </a>
+        <a href="/all">
+            <button id="books-button">
+                <img src="../static/files/pictures/books.png" style="position:absolute; width: 15%; height: 50%;left: 10%; top: 25%">
+                Все книги
+            </button>
+        </a>
     </div>
+<script>
+    function find(){
+        text = document.getElementById("find-text").value;
+        if (text.length > 2){
+            window.open("/find/" + encodeURIComponent(text), "_self");
+        }
+    }
+</script>
 </body>
 </html>

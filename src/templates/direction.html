@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Электронный библиотечный справочник</title>
+    <link type="text/css" rel="stylesheet" href="../static/css/direction.css">
+</head>
+<body>
+    <h1 id="title">{{name}}</h1>
+    <table id="directions">
+        {% for direction, direction_name in directions.items() %}
+            <tr>
+                <td>
+                    <a href="/book/{{direction}}"><button>{{direction_name}}</button></a>
+                </td>
+            </tr>
+        {%endfor%}
+    </table>
+
+</body>
+</html>

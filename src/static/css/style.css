@@ -1,0 +1,157 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("../files/fonts/Montserrat-SemiBold.ttf");
+}
+
+input:focus, textarea, select, button {
+    outline: none !important;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover, button:focus, button:active {
+    background-color: #EFEEF6;
+}
+
+body {
+    background: url("../files/pictures/Illustration.png");
+    background-size: cover;
+}
+
+button, input {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border: 0;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2vw;
+    line-height: 24px;
+    text-align: center;
+
+    color: #232360;
+}
+
+
+h1, h2, h3{
+    color: #FFFFFF;
+    padding: 2px;
+    text-align: right;
+}
+
+.content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:100%;
+    height: 100%;
+}
+
+#title {
+    position: absolute;
+    width: 24.27%;
+    height: 16.4%;
+    left: 72%;
+    top: 14%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.8vw;
+    line-height: 59px;
+    text-align: right;
+
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#find {
+    position: absolute;
+    width: 36.667%;
+    height: 9.72%;
+    left: 60%;
+    top: 51.94%;
+}
+
+#find-text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+
+    border: 0;
+    text-align: left;
+    text-indent: 4%;
+}
+
+#find-text::placeholder {
+    color: #232360;
+    opacity: 1; /* Firefox */
+}
+
+#find-button {
+    position: absolute;
+    width: 13%;
+    height: 100%;
+    right: 0;
+    top: 0;
+
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: 0 0 0 0;
+    border: 0;
+}
+
+#oge-button {
+    position: absolute;
+    width: 10.15%;
+    height: 8.22%;
+    left: 59.7%;
+    top: 68%;
+
+    text-indent: 40%;
+}
+
+#ege-button {
+    position: absolute;
+    width: 10.15%;
+    height: 8.22%;
+    left: 71.7%;
+    top: 68%;
+
+    text-indent: 40%;
+}
+
+#essay-button {
+    position: absolute;
+    width: 13.55%;
+    height: 8.22%;
+    left: 83.7%;
+    top: 68%;
+
+    text-indent: 30%;
+}
+
+#section-button {
+    position: absolute;
+    width: 13.55%;
+    height: 8.22%;
+    left: 64%;
+    top: 80%;
+
+    text-indent: 30%;
+}
+
+#books-button {
+    position: absolute;
+    width: 13.55%;
+    height: 8.22%;
+    left: 79.55%;
+    top: 80%;
+
+    text-indent: 30%;
+}

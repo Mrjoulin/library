@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("../files/fonts/Montserrat-SemiBold.ttf");
+}
+
+body {
+    background: #3F3390;
+}
+
+#title {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+
+    color: #FFFFFF;
+    padding: 2px;
+    text-align: left;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.8vw;
+    line-height: 59px;
+    text-align: left;
+
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#directions td {
+    height: 4vw;
+}
+
+#directions {
+    position: absolute;
+    top: 23%;
+    left: 3%;
+}
+
+
+button {
+    cursor: pointer;
+
+    height: 80%;
+    padding-left: 2vw;
+    padding-right: 2vw;
+
+    white-space: nowrap;
+
+    background: #FFFFFF;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border: 0;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2vw;
+    line-height: 24px;
+    text-align: center;
+
+    color: #232360;
+}
+
+button:hover, button:focus, button:active {
+    background-color: #3214FE;
+    color: white;
+}
